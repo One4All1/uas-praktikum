@@ -1,7 +1,7 @@
 #!/bin/bash
-# =========================================================
+
 # analyze_log.sh — Analisis Log Aktivitas Server Harian
-# =========================================================
+
 
 BERKAS_LOG="./user_activity.log"
 BERKAS_LAPORAN="./daily_report.txt"
