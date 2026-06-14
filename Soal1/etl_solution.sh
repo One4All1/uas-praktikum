@@ -1,7 +1,6 @@
 #!/bin/bash
-# =========================================================
+
 # etl_solution.sh — Pipeline ETL Data Transaksi E-Commerce
-# =========================================================
 
 BERKAS_INPUT="./transactions.txt"
 BERKAS_OUTPUT="./processed_transactions.log"
