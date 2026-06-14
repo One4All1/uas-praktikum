@@ -1,0 +1,8 @@
+id,nama,nominal
+1,Reza Pratama,175000
+2,Sinta Maharani,45000
+3,Taufik Hidayat,250000
+4,Ulfah Nadia,90000
+5,Vino Ardian,350000
+6,Wahyu Saputra,95000
+7,Xena Clarissa,425000

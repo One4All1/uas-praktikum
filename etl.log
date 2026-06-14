@@ -1,0 +1,6 @@
+[2026-06-15 00:06:17] [INFO]  ===== Proses ETL dimulai (PID: 9959) =====
+[2026-06-15 00:06:17] [INFO]  Berkas input ditemukan: 8 baris data.
+[2026-06-15 00:06:17] [INFO]  Memulai proses transformasi data...
+[2026-06-15 00:06:17] [INFO]  Transformasi selesai: 4 data lolos filter nominal.
+[2026-06-15 00:06:17] [INFO]  Data berhasil dimuat: 4 rekord tersimpan di ./processed_transactions.log.
+[2026-06-15 00:06:17] [INFO]  File kunci dihapus. Proses ETL selesai.
