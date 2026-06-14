@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# =========================================================
+
 # backup_otomatis.sh — Backup otomatis disk ke /backup
-# =========================================================
+
 
 SUMBER="/mnt/disk_baru"
 TUJUAN="/backup"
