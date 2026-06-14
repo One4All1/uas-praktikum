@@ -1,0 +1,28 @@
+===== Laporan Space HDD: Mon Jun 15 01:21:52 AM WIB 2026 =====
+
+Partisi : /dev/nvme0n1p6
+Total   : 59G
+Terpakai: 22G (38%)
+Tersisa : 35G
+✅ Status: Space HDD / masih aman (tersisa 62%)
+----------------------------------------
+Partisi : efivarfs
+Total   : 246K
+Terpakai: 134K (56%)
+Tersisa : 108K
+✅ Status: Space HDD /sys/firmware/efi/efivars masih aman (tersisa 44%)
+----------------------------------------
+Partisi : /dev/nvme0n1p2
+Total   : 100M
+Terpakai: 38M (39%)
+Tersisa : 62M
+✅ Status: Space HDD /boot/efi masih aman (tersisa 61%)
+----------------------------------------
+Partisi : /dev/loop27
+Total   : 43M
+Terpakai: 36K (1%)
+Tersisa : 40M
+✅ Status: Space HDD /mnt/disk_baru masih aman (tersisa 99%)
+----------------------------------------
+
+===== Laporan selesai =====
