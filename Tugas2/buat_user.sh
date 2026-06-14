@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# =========================================================
+
 # buat_user.sh — Script membuat user baru secara otomatis
 # Password otomatis dibuat: namauser@123
-# =========================================================
+
 
 BERKAS_USER="./daftar_user.txt"
 LOG_FILE="./user_creation.log"
