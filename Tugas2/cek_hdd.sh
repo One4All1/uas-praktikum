@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# =========================================================
+
 # cek_hdd.sh — Memeriksa space HDD dan notifikasi
-# =========================================================
+
 
 LOG_FILE="./hdd_report.log"
 BATAS_PERINGATAN=80  # Notifikasi jika pemakaian > 80%
@@ -25,12 +25,12 @@ df -h | grep -v tmpfs | grep -v udev | tail -n +2 | while read -r BARIS; do
     echo "Tersisa : $TERSISA" | tee -a "$LOG_FILE"
 
     if [ "$PERSEN" -ge "$BATAS_PERINGATAN" ] 2>/dev/null; then
-        echo "⚠️  PERINGATAN: Space HDD $MOUNT tinggal $(( 100 - PERSEN ))%!" | tee -a "$LOG_FILE"
+        echo "PERINGATAN: Space HDD $MOUNT tinggal $(( 100 - PERSEN ))%!" | tee -a "$LOG_FILE"
     else
-        echo "✅ Status: Space HDD $MOUNT masih aman (tersisa $(( 100 - PERSEN ))%)" | tee -a "$LOG_FILE"
+        echo "Status: Space HDD $MOUNT masih aman (tersisa $(( 100 - PERSEN ))%)" | tee -a "$LOG_FILE"
     fi
     echo "----------------------------------------" | tee -a "$LOG_FILE"
 done
 
 echo "" | tee -a "$LOG_FILE"
-echo "===== Laporan selesai =====" | tee -a "$LOG_FILE"
+echo "Laporan selesai" | tee -a "$LOG_FILE"
